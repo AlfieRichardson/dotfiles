@@ -1,0 +1,22 @@
+;        _    ___ _       
+;       | |  / __|_)      
+;  _____| |_| |__ _ _____ 
+; (____ | (_   __) | ___ |
+; / ___ | | | |  | | ____|
+; \_____|\_)|_|  |_|_____)
+
+[bar/mybar]
+override-redirect = true
+width = 3400
+height = 30
+offset-x = 20
+offset-y = 20
+modules-left = date
+
+[module/date]
+type = internal/date
+interval = 1.0
+date = %Y-%m-%d%
+time = %a %d %b %H:%M
+format-padding = 2
+label = %time%
