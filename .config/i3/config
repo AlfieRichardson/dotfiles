@@ -20,6 +20,9 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Sets the mod key. (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
+# Takes a screenshot.
+bindsym Print exec flameshot gui
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
