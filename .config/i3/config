@@ -7,20 +7,23 @@
 #
 # My custom config for i3-gaps.                   
 
-# Remove titlebars.
+
+
+# NO TITLEBARS
 for_window [class="^.*"] border pixel 3
 
-# Sets the gaps between windows.
+# GAPS & PRETTY
 gaps inner 20
 gaps top 50
 
-# Run polybar.
+# POLYBAR
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-# Sets the mod key. (Mod1=<Alt>, Mod4=<Super>)
+# SET VARS
+set $term alacritty
 set $mod Mod4
 
-# Takes a screenshot.
+# SCREENSHOT
 bindsym Print exec flameshot gui
 
 # Start XDG autostart .desktop files using dex. See also
