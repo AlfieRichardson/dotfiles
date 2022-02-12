@@ -1,0 +1,50 @@
+
+
+# colors generated with terminal.sexy
+colors:
+  # Default colors
+  primary:
+    background: '0x090e08'
+    foreground: '0xb2d9ac'
+
+  # Normal colors
+  normal:
+    black:   '0x111710'
+    red:     '0x192117'
+    green:   '0x283226'
+    yellow:  '0x3c4b3a'
+    blue:    '0x566b53'
+    magenta: '0x769071'
+    cyan:    '0x9abc94'
+    white:   '0xc7ecc1'
+
+  # Bright colors
+  bright:
+    black:   '0x84cd74'
+    red:     '0xdebd75'
+    green:   '0xabc9ed'
+    yellow:  '0xdd94e5'
+    blue:    '0x6395c5'
+    magenta: '0xe498ed'
+    cyan:    '0xde7b8c'
+    white:   '0x7ecf6c'
+
+# font
+font:
+  normal:
+    family: mononoki Nerd Font
+    style: Regular
+
+  bold:
+    family: mononoki Nerd Font
+    style: Bold
+
+  italic:
+    family: mononoki Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: mononoki Nerd Font
+    style: BoldItalic
+
+  size: 11
